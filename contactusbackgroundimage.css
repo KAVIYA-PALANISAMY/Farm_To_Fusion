@@ -1,0 +1,44 @@
+body{
+            background-image:url("https://c4.wallpaperflare.com/wallpaper/674/65/161/children-farmers-farm-field-wallpaper-preview.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text:bold;
+}
+h2{
+    align-text:center;
+}
+fieldset {
+  background-color: #eeeeee;
+  width:400px;
+  margin:0 auto;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+ 
+
+}
+
+input {
+  margin: 5px;
+
+}
+form{
+    background-color: rgba(255, 255, 255, 0.8); 
+    width:500px;
+    margin:0 auto;
+    
+    
+    }
+     input[type=submit] {
+        background-color:#04AA6D;
+        border: 2px solid #04AA6D;
+        color: black;
+        padding: 16px 32px;
+        text-decoration: none;
+        margin: 4px 2px;
+        cursor: pointer;
+}

@@ -1,0 +1,17 @@
+
+body {
+    background-image: url("https://images.radio.com/aiu-media/gettyimages-1043722068-6bab982f-7df0-4d22-9fcf-34696b6124d6.jpg?width=800");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+iframe{      
+        display: block;  /* iframes are inline by default */   
+        height: 100vh;  /* Set height to 100% of the viewport height */   
+        width: 100vw;  /* Set width to 100% of the viewport width */     
+        border: none; /* Remove default border */
+        background: lightyellow; /* Just for styling */
+    }

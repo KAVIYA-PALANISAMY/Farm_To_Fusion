@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>register</title>
+</head>
+    <link href="registrationbackgroundimage.css" rel="stylesheet">
+<body>
+    
+    <img src="https://static.vecteezy.com/system/resources/previews/022/774/469/original/agriculture-logo-icon-symbol-illustration-design-template-vector.jpg" alt="logo" align="left" height="150" width="150"> 
+    <h1><br>WELCOME TO FARM FUSION</h1>
+
+
+    <div style="text-align: center;">  <!-- text-align==controls horizontal alignment and it is CSS inline-->
+
+
+
+        <form action="" method="POST"> <!--action--specifies the URL to which the form data should be sent when the user submits the form.here empty which means form will be submitted to the same URL as the one where the form is located. post--useful for sending sensitive or large amounts of data.-->
+
+
+            <h2>Create Your Account</h2>
+            Name: <br>
+            <input type="text" id="fname" name="fname" value="" ><br><br>
+            Mobile Number: <br>
+            <input type="tel" id="num" name="num" value=""><br><br>
+            Aadhaar Number: <br>
+            <input type="text" id="anum" name="anum" value="" required maxlength="12"><br><br>
+            District: <br>
+            <input list="dname" name="dname" value=""><br><br>
+            <datalist id="dname">
+                <option value="Ariyalur">
+                <option value="Chengalpattu">
+                <option value="Chennai">
+                <option value="Coimbatore">
+                <option value="Cuddalore">
+                <option value="Dharmapuri">
+                <option value="Dindigul">
+                <option value="Erode">
+                <option value="Kallakurichi">
+                <option value="Kancheepuram">
+                <option value="Karur">
+                <option value="Krishnagiri">
+                <option value="Madurai">
+                <option value="Mayiladuthurai">
+                <option value="Nagapattinam">
+                <option value="Kanniyakumari">
+                <option value="Namakkal">
+                <option value="Perambalur">
+                <option value="Pudukottai">
+                <option value="Ramanathapuram">
+                <option value="Ranipet">
+                <option value="Salem">
+                <option value="Sivagangai">
+                <option value="Tenkasi">
+                <option value="Thanjavur">
+                <option value="Theni">
+                <option value="Thiruvallur">
+                <option value="Thiruvarur">
+                <option value="Thoothukudi">
+                <option value="Trichirappalli">
+                <option value="Thirunelveli">
+                <option value="Tirupathur">
+                <option value="Tiruppur">
+                <option value="Tiruvannamalai">
+                <option value="The Nilgiris">
+                <option value="Vellore">
+                <option value="Viluppuram">
+                <option value="Virudhunagar">
+
+            </datalist>
+            Block: <br>
+            <input type="text" id="bname" name="bname" value="" ><br><br>
+            Village: <br>
+            <input type="text" id="vname" name="vname" value="" ><br><br>
+            Survey Number: <br>
+            <input type="text" id="snum" name="snum" value="" ><br><br>
+
+            <input type="submit" value="Sign up" >
+            <p>Already have an account?<a href="login.html">Log in</a></p>
+        </form>
+    </div>
+</body>
+</html>

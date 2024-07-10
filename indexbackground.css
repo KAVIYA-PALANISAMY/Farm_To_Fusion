@@ -1,0 +1,92 @@
+
+body{
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/674/65/161/children-farmers-farm-field-wallpaper-preview.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    
+img {
+    border-radius: 50%;
+    image-align:center;
+}
+
+h1{
+    text-align:left;
+}
+
+.navbar {
+    background-color: white ;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar a {
+    font-family: Algerian;
+    float: right;
+    margin-right: 20px;
+    text-decoration: none;
+    color: Black;
+    font-size: 18px;
+}
+ 
+
+    .dropbtn {
+        font-size: 18px;
+        font-family: Algerian;
+        color: black;
+        padding: 12px;
+        border: none;
+        cursor: pointer;
+        background:none;
+    }
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        z-index:1;
+        white-space: nowrap;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        text-align:left;
+    }
+
+    .dropdown-content a {
+        color: black;
+        font-family:Arial;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align:left;
+
+    }
+
+    .dropdown-content a:hover {
+       background-color: grey;
+       color: white;
+    }
+
+
+    .dropdown:hover .dropdown-content {
+       display: block;
+    }
+       .box{
+        background-color: white;
+        width:750px;
+        border: 5px solid green;
+        padding: 10px;
+        margin-top:100px;
+        margin-left: 100px;
+        margin-right:100px;
+        margin-bottom:100px;
+        text-align:center;
+}
+   
+
+
